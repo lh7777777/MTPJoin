@@ -32,7 +32,7 @@ Then follow the instructions to enter the range join, for example:
 
         exit
 
-### sgx_buffer
+### SGX
 
     $ make clean && make
     $ make install
