@@ -1,13 +1,13 @@
-# FlightJoin
+# MTPJoin
 
-We have implemented the code for FlightJoin, including `\src`, `\data` and `\SBF&TRA`.
+We have implemented the code for MTPJoin, including `\src`, `\data` and `\SBF&TRA`.
 
-The source code of FlightJoin is in `\src`, including `\src\client` and `\src\SGX`.
+The source code of MTPJoin is in `\src`, including `\src\client` and `\src\SGX`.
 
-The SBF, TRA source code used in FlightJoin is in `\SBF&TRA`, including `\data`, `\SBF`, `\TRA` and `\CSCBF`.
+The SBF, TRA source code used in MTPJoin is in `\SBF&TRA`, including `\data`, `\SBF`, `\TRA` and `\CSCBF`.
 `\CSCBF` is implemented with reference to paper ***Building Fast and Compact Sketches for Approximately Multi-Set Multi-Membership Querying***, the code is on *[CSC-Simgod2021](https://github.com/Rezerolird/CSC-Simgod2021.git)*.
 
-FlightJoin can be integrated into MySQL using UDF, with a testing environment of Ubuntu 16.04 and Intel SGX SDK 2.6.
+MTPJoin can be integrated into MySQL using UDF, with a testing environment of Ubuntu 16.04 and Intel SGX SDK 2.6.
 
 ## Compilation
 
