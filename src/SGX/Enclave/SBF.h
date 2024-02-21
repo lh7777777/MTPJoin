@@ -153,7 +153,7 @@ class CSCBF{
             for(int r = 0;r<this->r;r++){
                 for(auto &location:check_locations){
                     offset_location = (location + offset[r]) % this->single_capacity;
-                    testVector[r][offset_location] = 1;
+                    testVector[r][offset_location] ^= 1;
                 }
             }
 
